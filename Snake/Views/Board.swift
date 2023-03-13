@@ -19,7 +19,6 @@ class Board: UIView {
         cellSide = frame.width / CGFloat(BoardSnake.cols)
     }
     
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -54,7 +53,8 @@ class Board: UIView {
         }
         
         ColorSnake.grid.setStroke()
-        gridPath.stroke()    }
+        gridPath.stroke()
+    }
 }
 
 
