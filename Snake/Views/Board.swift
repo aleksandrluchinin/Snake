@@ -13,6 +13,8 @@ class Board: UIView {
     private let originY: CGFloat = 0
     private var cellSide: CGFloat = 0
     
+    var snake: [SnakeCell] = []
+    
     override func layoutSubviews() {
         super.layoutSubviews()
         
@@ -54,6 +56,10 @@ class Board: UIView {
         
         ColorSnake.grid.setStroke()
         gridPath.stroke()
+    }
+    
+    private func drawSnake() {
+        
     }
 }
 

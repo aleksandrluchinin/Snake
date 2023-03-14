@@ -4,7 +4,6 @@
 //
 //  Created by Aleksandr  on 13.03.2023.
 //
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -28,7 +27,6 @@ extension ViewController {
     
     private func setConstraints() {
         NSLayoutConstraint.activate([
-        
             board.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10),
             board.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10),
             board.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10),
