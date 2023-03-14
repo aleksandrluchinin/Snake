@@ -14,7 +14,7 @@
 		1F9545D429BF476700A68561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9545D329BF476700A68561 /* Assets.xcassets */; };
 		1F9545D729BF476700A68561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9545D529BF476700A68561 /* LaunchScreen.storyboard */; };
 		1F9545E429BF4A4E00A68561 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9545E329BF4A4E00A68561 /* Board.swift */; };
-		1F9545E629BF50F500A68561 /* BoardSnake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9545E529BF50F500A68561 /* BoardSnake.swift */; };
+		1F9545E629BF50F500A68561 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9545E529BF50F500A68561 /* GameModel.swift */; };
 		1F9545E829BF551D00A68561 /* Resourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9545E729BF551D00A68561 /* Resourse.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,7 @@
 		1F9545D629BF476700A68561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F9545D829BF476700A68561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F9545E329BF4A4E00A68561 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
-		1F9545E529BF50F500A68561 /* BoardSnake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardSnake.swift; sourceTree = "<group>"; };
+		1F9545E529BF50F500A68561 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		1F9545E729BF551D00A68561 /* Resourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resourse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,7 +102,7 @@
 		1F9545E129BF49AA00A68561 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				1F9545E529BF50F500A68561 /* BoardSnake.swift */,
+				1F9545E529BF50F500A68561 /* GameModel.swift */,
 				1F16845229C09EE000077AC6 /* SnakeCell.swift */,
 			);
 			path = Models;
@@ -189,7 +189,7 @@
 				1F9545CF29BF476500A68561 /* ViewController.swift in Sources */,
 				1F9545CB29BF476500A68561 /* AppDelegate.swift in Sources */,
 				1F9545E429BF4A4E00A68561 /* Board.swift in Sources */,
-				1F9545E629BF50F500A68561 /* BoardSnake.swift in Sources */,
+				1F9545E629BF50F500A68561 /* GameModel.swift in Sources */,
 				1F9545CD29BF476500A68561 /* SceneDelegate.swift in Sources */,
 				1F16845329C09EE000077AC6 /* SnakeCell.swift in Sources */,
 				1F9545E829BF551D00A68561 /* Resourse.swift in Sources */,
