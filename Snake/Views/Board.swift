@@ -38,7 +38,6 @@ class Board: UIView {
         drawGrid()
         drawSnake()
         drawAddPoint()
-        
     }
     
     private func drawGrid() {
@@ -63,7 +62,6 @@ class Board: UIView {
     }
     
     private func drawSnake() {
-        
         guard !snake.isEmpty, let snakeHead = snake.first else { return }
         
         ColorSnake.snakeHead.setFill()
@@ -81,7 +79,6 @@ class Board: UIView {
                                              width: cellSide,
                                              height: cellSide),
                          cornerRadius: 5).fill()
-            
         }
         
     }

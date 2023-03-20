@@ -16,6 +16,7 @@
 		1F9545E429BF4A4E00A68561 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9545E329BF4A4E00A68561 /* Board.swift */; };
 		1F9545E629BF50F500A68561 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9545E529BF50F500A68561 /* GameModel.swift */; };
 		1F9545E829BF551D00A68561 /* Resourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9545E729BF551D00A68561 /* Resourse.swift */; };
+		1FC1868629C898AB001EDEE0 /* MovingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1868529C898AB001EDEE0 /* MovingModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1F9545E329BF4A4E00A68561 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		1F9545E529BF50F500A68561 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		1F9545E729BF551D00A68561 /* Resourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resourse.swift; sourceTree = "<group>"; };
+		1FC1868529C898AB001EDEE0 /* MovingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				1F9545E529BF50F500A68561 /* GameModel.swift */,
 				1F16845229C09EE000077AC6 /* SnakeCell.swift */,
+				1FC1868529C898AB001EDEE0 /* MovingModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				1F9545E429BF4A4E00A68561 /* Board.swift in Sources */,
 				1F9545E629BF50F500A68561 /* GameModel.swift in Sources */,
 				1F9545CD29BF476500A68561 /* SceneDelegate.swift in Sources */,
+				1FC1868629C898AB001EDEE0 /* MovingModel.swift in Sources */,
 				1F16845329C09EE000077AC6 /* SnakeCell.swift in Sources */,
 				1F9545E829BF551D00A68561 /* Resourse.swift in Sources */,
 			);
